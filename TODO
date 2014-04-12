@@ -1,2 +1,10 @@
 gitignore.
 change happend.
+
+REM Begin Copy
+powershell
+Set-Content "C:\Program Files\Sublime Text 3\subl.bat" "@echo off"
+Add-Content "C:\Program Files\Sublime Text 3\subl.bat" "start sublime_text.exe %1"
+if (!($Env:Path.Contains("Sublime"))) {[System.Environment]::SetEnvironmentVariable("PATH", $Env:Path + ";C:\Program Files\Sublime Text 3", "Machine")}
+exit
+REM End Copy
