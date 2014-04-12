@@ -1,6 +1,6 @@
 # SAMPLE PROJECT
-"this is my new project" 
-added a branch exp1
-this project is created to learn git
+
+this project is created to learn git.
+#this is a test text
 
 April 2014
